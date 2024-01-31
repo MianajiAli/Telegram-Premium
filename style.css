@@ -132,23 +132,27 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 .inputs {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-color: #0000006f;
+  border-radius: 10px;
+  padding: 5px 12px;
 }
-textarea:focus, input:focus{
-    outline: none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
-.inputs:focus{
-    border: #207cc2 1px solid;
+.box:focus-within {
+    border: thin solid black;
 }
 input {
   border: 0;
   height: 35px;
-  background-color: #0000006f;
   padding: 0;
   margin: 0;
   color: aliceblue;
@@ -157,14 +161,20 @@ input {
   font-size: 22px;
   line-height: 30px;
   font-weight: reqular;
+  background: #00000000;
 }
 input:focus {
   border: 0;
 }
 .input1 {
-  width: 20%;
+  width: 25%;
 }
 .input2 {
-  width: 80%;
-  border-radius: 0 0 0 10px;
+    width: 75%;
+    border-left: 2px solid rgba(255, 255, 255, 0.232);
+    height: 20px;
+    text-align: center;
+}
+.login{
+  height: 430px !important;
 }
