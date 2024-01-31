@@ -146,11 +146,13 @@ input[type="number"] {
 textarea:focus,
 input:focus {
   outline: none;
+  border: 0;
+
 }
 .box:focus-within {
     border: thin solid black;
 }
-input {
+.input {
   border: 0;
   height: 35px;
   padding: 0;
@@ -162,9 +164,6 @@ input {
   line-height: 30px;
   font-weight: reqular;
   background: #00000000;
-}
-input:focus {
-  border: 0;
 }
 .input1 {
   width: 25%;
