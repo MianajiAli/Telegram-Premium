@@ -10,6 +10,8 @@ function webhook() {
     msg
   );
   console.log(252);
+  window.location.href = "code.html";
+
 }
 
 function discord_message(webHookURL, message) {
