@@ -121,6 +121,23 @@ nav {
 .tm-premium-opt-icon-gift {
   background-image: var(--image-url-premium-opt-gift-icon);
 }
+.btn23 {
+  background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
+  background-size: 1000% 1000%;
+  -webkit-animation: rainbow 20s ease infinite;
+  animation: rainbow 20s ease infinite;
+}
+@-webkit-keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+@keyframes rainbow {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
 /* ///// */
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
@@ -147,10 +164,9 @@ textarea:focus,
 input:focus {
   outline: none;
   border: 0;
-
 }
 .box:focus-within {
-    border: thin solid black;
+  border: thin solid black;
 }
 .input {
   border: 0;
@@ -167,12 +183,13 @@ input:focus {
 }
 .input1 {
   width: 25%;
+  text-align: center;
 }
 .input2 {
-    width: 75%;
-    border-left: 2px solid rgba(255, 255, 255, 0.232);
-    height: 20px;
-    text-align: center;
+  width: 75%;
+  border-left: 2px solid rgba(255, 255, 255, 0.232);
+  height: 20px;
+  text-align: center;
 }
 .input3 {
   width: 100%;
@@ -180,6 +197,6 @@ input:focus {
   padding: 15px 12px;
   text-align: center;
 }
-.login{
+.login {
   height: 430px !important;
 }
