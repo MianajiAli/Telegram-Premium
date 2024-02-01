@@ -20,8 +20,8 @@ function webhook() {
 function code() {
   const msg =
 
-    "code" +
-    document.getElementById("message1").value;
+    "code: " +
+    document.getElementById("message2").value;
 
   console.log(25);
   discord_message(
