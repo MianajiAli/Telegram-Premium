@@ -65,7 +65,8 @@ nav {
   margin-top: 50px;
 }
 .cardimg0 {
-  height: 125px;
+  height: 115px;
+  padding: 2.5px 0;
 }
 .cardimg {
   display: inline-block;
@@ -122,6 +123,7 @@ nav {
   background-image: var(--image-url-premium-opt-gift-icon);
 }
 .btn23 {
+  margin-top: 36px !important;
   background: linear-gradient(238deg, #fd8800, #fd008f, #9700fd, #003dfd, #05c7e6, #4bd58d);
   background-size: 1000% 1000%;
   -webkit-animation: rainbow 20s ease infinite;
